@@ -4,8 +4,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "postgres", "postgres.vcxproj", "{F11D7F21-1E54-4CCD-994C-BD0CB694AD44}"
 	ProjectSection(ProjectDependencies) = postProject
-		{51579460-CAE4-457C-AE51-C81A03C31794} = {51579460-CAE4-457C-AE51-C81A03C31794}
 		{3DA6ED67-0A3E-47DE-A793-3C631B46D9DC} = {3DA6ED67-0A3E-47DE-A793-3C631B46D9DC}
+		{51579460-CAE4-457C-AE51-C81A03C31794} = {51579460-CAE4-457C-AE51-C81A03C31794}
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dict_snowball", "dict_snowball.vcxproj", "{EA8D8049-6C76-48B7-AF17-BC1C869763CD}"
@@ -13,48 +13,114 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpqwalreceiver", "libpqwalreceiver.vcxproj", "{78D791E9-7DC3-4154-BAC3-65131DFE3160}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "initdb", "initdb.vcxproj", "{890050E1-B917-4D9D-B3E8-D5D48D001736}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F11D7F21-1E54-4CCD-994C-BD0CB694AD44} = {F11D7F21-1E54-4CCD-994C-BD0CB694AD44}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pg_basebackup", "pg_basebackup.vcxproj", "{2988B0E1-8441-4B15-90CE-7E700D302466}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F11D7F21-1E54-4CCD-994C-BD0CB694AD44} = {F11D7F21-1E54-4CCD-994C-BD0CB694AD44}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pg_receivexlog", "pg_receivexlog.vcxproj", "{D3B39464-0CC5-43BE-A2F0-DDFA71F345C6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F11D7F21-1E54-4CCD-994C-BD0CB694AD44} = {F11D7F21-1E54-4CCD-994C-BD0CB694AD44}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pg_config", "pg_config.vcxproj", "{8A11AD38-EA8B-47B3-BF34-B08B76BBA868}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F11D7F21-1E54-4CCD-994C-BD0CB694AD44} = {F11D7F21-1E54-4CCD-994C-BD0CB694AD44}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pg_controldata", "pg_controldata.vcxproj", "{9FD6E596-1BC7-4802-8E41-B31D1A67E92E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F11D7F21-1E54-4CCD-994C-BD0CB694AD44} = {F11D7F21-1E54-4CCD-994C-BD0CB694AD44}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pg_ctl", "pg_ctl.vcxproj", "{F37F512C-FF52-44F0-9657-ED1731BB3CAD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F11D7F21-1E54-4CCD-994C-BD0CB694AD44} = {F11D7F21-1E54-4CCD-994C-BD0CB694AD44}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pg_resetxlog", "pg_resetxlog.vcxproj", "{4EB356D7-3213-4B14-A96C-DD03604E8E14}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F11D7F21-1E54-4CCD-994C-BD0CB694AD44} = {F11D7F21-1E54-4CCD-994C-BD0CB694AD44}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pgevent", "pgevent.vcxproj", "{C20B314F-07F9-4392-AC14-1E4F62016C18}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F11D7F21-1E54-4CCD-994C-BD0CB694AD44} = {F11D7F21-1E54-4CCD-994C-BD0CB694AD44}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "psql", "psql.vcxproj", "{589C75F1-5180-43FC-8FBA-97C0BE33B8A9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F11D7F21-1E54-4CCD-994C-BD0CB694AD44} = {F11D7F21-1E54-4CCD-994C-BD0CB694AD44}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pg_dump", "pg_dump.vcxproj", "{A3781461-3B9F-4AB4-9856-572B94EAA160}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F11D7F21-1E54-4CCD-994C-BD0CB694AD44} = {F11D7F21-1E54-4CCD-994C-BD0CB694AD44}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pg_dumpall", "pg_dumpall.vcxproj", "{262909FF-B7A3-49EC-A0E0-4A835C5ACD02}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F11D7F21-1E54-4CCD-994C-BD0CB694AD44} = {F11D7F21-1E54-4CCD-994C-BD0CB694AD44}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pg_restore", "pg_restore.vcxproj", "{0C941EF8-F287-4860-B1FC-54F680C2B23F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F11D7F21-1E54-4CCD-994C-BD0CB694AD44} = {F11D7F21-1E54-4CCD-994C-BD0CB694AD44}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "createdb", "createdb.vcxproj", "{A81BBF50-DB31-47CA-891E-4BD6C4B9722D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F11D7F21-1E54-4CCD-994C-BD0CB694AD44} = {F11D7F21-1E54-4CCD-994C-BD0CB694AD44}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "createlang", "createlang.vcxproj", "{D9910F83-937D-4CB3-BC83-1BA92FBDEB32}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F11D7F21-1E54-4CCD-994C-BD0CB694AD44} = {F11D7F21-1E54-4CCD-994C-BD0CB694AD44}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "createuser", "createuser.vcxproj", "{D46CFA42-C17B-4F39-B0D6-AD500E912CE8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F11D7F21-1E54-4CCD-994C-BD0CB694AD44} = {F11D7F21-1E54-4CCD-994C-BD0CB694AD44}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dropdb", "dropdb.vcxproj", "{AECCC048-F14A-4A0A-A38F-3709ACC5C7DC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F11D7F21-1E54-4CCD-994C-BD0CB694AD44} = {F11D7F21-1E54-4CCD-994C-BD0CB694AD44}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "droplang", "droplang.vcxproj", "{8950C937-5F4B-4CA9-B51C-03925EE19CB0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F11D7F21-1E54-4CCD-994C-BD0CB694AD44} = {F11D7F21-1E54-4CCD-994C-BD0CB694AD44}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dropuser", "dropuser.vcxproj", "{E6FAC937-B52F-4A05-A2AF-64B61CA843BD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F11D7F21-1E54-4CCD-994C-BD0CB694AD44} = {F11D7F21-1E54-4CCD-994C-BD0CB694AD44}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "clusterdb", "clusterdb.vcxproj", "{9F60A37A-71B9-406B-B82B-EF954473B209}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F11D7F21-1E54-4CCD-994C-BD0CB694AD44} = {F11D7F21-1E54-4CCD-994C-BD0CB694AD44}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vacuumdb", "vacuumdb.vcxproj", "{A11ED143-1ACE-48D2-B2C1-C9F2735F379A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F11D7F21-1E54-4CCD-994C-BD0CB694AD44} = {F11D7F21-1E54-4CCD-994C-BD0CB694AD44}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "reindexdb", "reindexdb.vcxproj", "{31E5FFC1-4C6D-449A-A70F-FE85F518C00E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F11D7F21-1E54-4CCD-994C-BD0CB694AD44} = {F11D7F21-1E54-4CCD-994C-BD0CB694AD44}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pg_isready", "pg_isready.vcxproj", "{8E3B922C-6360-4274-847C-9354561FE4FC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F11D7F21-1E54-4CCD-994C-BD0CB694AD44} = {F11D7F21-1E54-4CCD-994C-BD0CB694AD44}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bin", "bin", "{197DD0E3-EC52-473A-942E-B0A629191A95}"
 EndProject
