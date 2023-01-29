@@ -165,38 +165,62 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ltree", "ltree.vcxproj", "{E7455F95-A336-4264-B052-9EAAD83DF75D}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "oid2name", "oid2name.vcxproj", "{E4B159A8-E73D-4F90-833D-DA86F2E5D236}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F11D7F21-1E54-4CCD-994C-BD0CB694AD44} = {F11D7F21-1E54-4CCD-994C-BD0CB694AD44}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pageinspect", "pageinspect.vcxproj", "{C15129CB-6443-42FF-ACEC-24488097439A}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "passwordcheck", "passwordcheck.vcxproj", "{7A05946C-0968-41E3-ACAB-A93F8F999654}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pgbench", "pgbench.vcxproj", "{739FB6CB-ECD3-429A-A7F1-2D6E1DB3BD74}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F11D7F21-1E54-4CCD-994C-BD0CB694AD44} = {F11D7F21-1E54-4CCD-994C-BD0CB694AD44}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pgrowlocks", "pgrowlocks.vcxproj", "{BDF3BB05-2AE7-434D-8551-CDEFCF0E7988}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pgstattuple", "pgstattuple.vcxproj", "{6AEFAB61-94EF-4D11-ABFE-821EB8BBC5BF}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pg_archivecleanup", "pg_archivecleanup.vcxproj", "{9860BB99-478B-4812-9034-32C3AA816420}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F11D7F21-1E54-4CCD-994C-BD0CB694AD44} = {F11D7F21-1E54-4CCD-994C-BD0CB694AD44}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pg_buffercache", "pg_buffercache.vcxproj", "{DA04E050-76B3-4264-A8C9-027A75BE1C03}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pg_freespacemap", "pg_freespacemap.vcxproj", "{9256EDBC-B6A2-42D0-95BD-D4E905A57150}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pg_standby", "pg_standby.vcxproj", "{283F7BF0-EDC4-43AD-AAD6-DE90184B0D80}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F11D7F21-1E54-4CCD-994C-BD0CB694AD44} = {F11D7F21-1E54-4CCD-994C-BD0CB694AD44}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pg_stat_statements", "pg_stat_statements.vcxproj", "{677B4C41-C6D0-4A56-ACEF-44C973D830D2}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pg_test_fsync", "pg_test_fsync.vcxproj", "{C5857BE9-6034-41D3-93B9-84272C41AAFD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F11D7F21-1E54-4CCD-994C-BD0CB694AD44} = {F11D7F21-1E54-4CCD-994C-BD0CB694AD44}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pg_test_timing", "pg_test_timing.vcxproj", "{8657FF1C-DBFB-460D-AE45-F2B0310CE19C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F11D7F21-1E54-4CCD-994C-BD0CB694AD44} = {F11D7F21-1E54-4CCD-994C-BD0CB694AD44}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pg_trgm", "pg_trgm.vcxproj", "{95298F9A-2F39-4690-9601-F02E5CFAF06B}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pg_upgrade", "pg_upgrade.vcxproj", "{FD245DFC-5A1D-4F89-A9C9-1256035FBCED}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F11D7F21-1E54-4CCD-994C-BD0CB694AD44} = {F11D7F21-1E54-4CCD-994C-BD0CB694AD44}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pg_upgrade_support", "pg_upgrade_support.vcxproj", "{3A48112C-9C08-4CC1-AF7B-C9B1C589B413}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pg_xlogdump", "pg_xlogdump.vcxproj", "{7B30A796-2F69-414E-947C-0D3D5402DE46}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F11D7F21-1E54-4CCD-994C-BD0CB694AD44} = {F11D7F21-1E54-4CCD-994C-BD0CB694AD44}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "postgres_fdw", "postgres_fdw.vcxproj", "{70B4B06F-1145-4AED-B05B-843D77976736}"
 EndProject
@@ -223,6 +247,9 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "unaccent", "unaccent.vcxproj", "{4A657827-EA06-4FE7-9D6B-0DA85845A53C}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vacuumlo", "vacuumlo.vcxproj", "{40EB4F6D-A53A-48F8-AC34-1001B6200C7C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F11D7F21-1E54-4CCD-994C-BD0CB694AD44} = {F11D7F21-1E54-4CCD-994C-BD0CB694AD44}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "worker_spi", "worker_spi.vcxproj", "{728ED14E-662C-4684-98BB-E167FF068F66}"
 EndProject
@@ -231,6 +258,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "contrib", "contrib", "{8B4041F0-1499-44E9-9948-74E80D81E222}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zic", "zic.vcxproj", "{0264A10D-B7F7-4C97-B668-71672544950B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F11D7F21-1E54-4CCD-994C-BD0CB694AD44} = {F11D7F21-1E54-4CCD-994C-BD0CB694AD44}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "utils", "utils", "{3F5867CB-1447-4962-9C71-1020140FA25A}"
 EndProject
@@ -243,14 +273,29 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PLs", "PLs", "{AEE8CBFD-9E1D-46EA-B8C1-EDFD7FEC061C}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpq", "libpq.vcxproj", "{A14A9CE7-4D1E-42DE-B28E-DBF4F9DDB8B5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F11D7F21-1E54-4CCD-994C-BD0CB694AD44} = {F11D7F21-1E54-4CCD-994C-BD0CB694AD44}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpgtypes", "libpgtypes.vcxproj", "{C6CFEE7C-485D-4E54-AE37-93012AE2F325}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F11D7F21-1E54-4CCD-994C-BD0CB694AD44} = {F11D7F21-1E54-4CCD-994C-BD0CB694AD44}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libecpg", "libecpg.vcxproj", "{3F998DDA-8707-4B7D-8731-20144CCDA626}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F11D7F21-1E54-4CCD-994C-BD0CB694AD44} = {F11D7F21-1E54-4CCD-994C-BD0CB694AD44}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libecpg_compat", "libecpg_compat.vcxproj", "{4038C3CD-396E-40BB-874E-5A7A7C97515B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F11D7F21-1E54-4CCD-994C-BD0CB694AD44} = {F11D7F21-1E54-4CCD-994C-BD0CB694AD44}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ecpg", "ecpg.vcxproj", "{1ABDEB67-C79D-4BEA-855C-82BDAE9908C4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F11D7F21-1E54-4CCD-994C-BD0CB694AD44} = {F11D7F21-1E54-4CCD-994C-BD0CB694AD44}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "interfaces", "interfaces", "{82B54112-B8DA-489C-B505-D990BC226BF7}"
 EndProject
@@ -259,14 +304,26 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpgcommon", "libpgcommon.vcxproj", "{3DA6ED67-0A3E-47DE-A793-3C631B46D9DC}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pg_regress_ecpg", "pg_regress_ecpg.vcxproj", "{1914ED56-046E-4EE1-BEAE-6568202FE096}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F11D7F21-1E54-4CCD-994C-BD0CB694AD44} = {F11D7F21-1E54-4CCD-994C-BD0CB694AD44}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "isolationtester", "isolationtester.vcxproj", "{E6B70F02-7431-46EA-A125-4FDAEA064755}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F11D7F21-1E54-4CCD-994C-BD0CB694AD44} = {F11D7F21-1E54-4CCD-994C-BD0CB694AD44}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pg_isolation_regress", "pg_isolation_regress.vcxproj", "{4194FF6C-73A0-40C2-9FE2-61A6356B5533}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F11D7F21-1E54-4CCD-994C-BD0CB694AD44} = {F11D7F21-1E54-4CCD-994C-BD0CB694AD44}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "regress", "regress.vcxproj", "{156218AE-5EA8-408E-A1FE-4171AE17AA8B}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pg_regress", "pg_regress.vcxproj", "{8676F7D9-FF61-42F4-9AB0-CCD0F79F6363}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F11D7F21-1E54-4CCD-994C-BD0CB694AD44} = {F11D7F21-1E54-4CCD-994C-BD0CB694AD44}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "misc", "misc", "{B6984350-9D3F-4B7F-A5A0-640F30EB5E2A}"
 EndProject
