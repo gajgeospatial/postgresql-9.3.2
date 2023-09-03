@@ -18,9 +18,12 @@ $flexver =~ s/[^0-9.]//g;
 my @verparts = split(/\./, $flexver);
 unless ($verparts[0] == 2 && $verparts[1] == 5 && $verparts[2] >= 31)
 {
+	unless ($verparts[1] > 5)
+     {
 	print "WARNING! Flex install not found, or unsupported Flex version.\n";
 	print "echo Attempting to build without.\n";
 	exit 0;
+     }
 }
 
 my $input = shift;
